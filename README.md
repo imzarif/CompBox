@@ -1,2 +1,2 @@
 # CompBox
-Website for posting complains.
+This is a website that I created using Django framwwork and PostgreSQL database. 
