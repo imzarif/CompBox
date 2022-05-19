@@ -1,0 +1,22 @@
+{%extends 'complain/mhome.html'%}
+
+{%block content%}
+
+
+{%load staticfiles%}
+
+
+<h1 style="margin-top:2%;"> Area- {{complain.address}}</h1>
+<h1 style="margin-top:2%;"> Ministry- {{complain.ministry}}</h1>
+
+<img src="{{complain.image.url}}" style="width:60%;" ><br><br>
+<h2 style="display:inline-block;"> Posted by - {{complain.user.first_name}}</h2>
+<h2 style="display:inline-block;margin-left:39%;">{{complain.pub_date_up}}</h2><br><br>
+<p>{{complain.description}}</p>
+
+{% endblock %}
+
+
+
+
+
